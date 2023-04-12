@@ -76,7 +76,7 @@
   display: flex;  
   justify-content: space-between;
   width: 80%;
-  margin: 100px 0;
+  margin: 0;
 }
 
 .description__brief {
@@ -88,6 +88,7 @@
   font-size: 18px;
   font-weight: normal;
   color: blue;
+  margin: 0;
 }
 
 .description__main-text {
@@ -99,13 +100,85 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  margin: 0;
 }
 
 .description__accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: 600;
+  display: inline-block;
+  margin: 30px 0;
 }
+
+.digits {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.digits__title {
+  width: 60%;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.digits__subtitle {
+  width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  margin: 0;  
+}
+
+.digits__table {
+  display: flex;
+  width: 1100px;
+  flex-wrap: wrap;  
+  margin: 60px auto 100px;
+  gap: 33px;
+}
+
+.digits__cell {
+  width: 250px;
+}
+
+.digits__heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.digits__text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.feynman {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feynman__title {
+  text-align: center;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+  width: 648px;
+  margin: 0;
+}
+
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
