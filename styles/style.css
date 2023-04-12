@@ -12,14 +12,99 @@
 .header {
   height: 100vh;
   min-height: 600px;
-  max-height: 756px;
+  max-height: 756px; 
   /* выше установили ограничения для секции */
+  display: flex;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+
+.header__logo {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+}
+
+.header__head-title {
+  display: flex;
+  width: 730px;
+  margin-left: 56px;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: 600;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header__subtitle {
+  position: absolute;
+  width: 388px;
+  left: 64px;
+  bottom: 30px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: 300;
+  
+}
+
+.header__image-main {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 765px;
+  height: 608px;
+}
+
 .header__square-pic {
   height: 568px;
   width: 568px;
+  background-color: blue;
+  top: 64px;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0;
+}
+
+.description__two-columns {
+  display: flex;  
+  justify-content: space-between;
+  width: 80%;
+  margin: 100px 0;
+}
+
+.description__brief {
+  width: 175px;
+}
+
+.description__subtitle {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: blue;
+}
+
+.description__main-text {
+  width: 80%;
+  min-width: 784px;
+}
+
+.description__paragraph {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.description__accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 /* и элемента с модификатором вида ключ-значение */
