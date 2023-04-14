@@ -73,7 +73,7 @@
 }
 
 .description__two-columns {
-  display: flex;  
+  display: flex;
   justify-content: space-between;
   width: 80%;
   margin: 0;
@@ -139,7 +139,7 @@
 .digits__table {
   display: flex;
   width: 1100px;
-  flex-wrap: wrap;  
+  flex-wrap: wrap;
   margin: 60px auto 100px;
   gap: 33px;
 }
@@ -247,7 +247,7 @@
 .kaufman__table_theme_dark {
   display: flex;
   width: 1100px;
-  flex-wrap: wrap;  
+  flex-wrap: wrap;
   margin: 80px auto 100px;
   gap: 20px;
   z-index: 3;
@@ -299,7 +299,7 @@
 }
 
 .footer__column_content_copyright {
-  display: flex;  
+  display: flex;
   flex-basis: 711px;
 }
 
@@ -354,13 +354,3 @@
   top: 0;
   right: 0;
 }
-
-
-
-/* и элемента с модификатором вида ключ-значение
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-} */
