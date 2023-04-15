@@ -72,18 +72,18 @@
   margin: 100px 0;
 }
 
-.description__two-columns {
+.two-columns {
   display: flex;
   justify-content: space-between;
   width: 80%;
   margin: 0;
 }
 
-.description__brief {
+.two-columns__brief {
   width: 175px;
 }
 
-.description__subtitle {
+.two-columns__subtitle {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -91,19 +91,19 @@
   margin: 0;
 }
 
-.description__main-text {
+.two-columns__main-text {
   width: 80%;
   min-width: 784px;
 }
 
-.description__paragraph {
+.two-columns__paragraph {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
   margin: 0;
 }
 
-.description__accent {
+.two-columns__accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: 600;
