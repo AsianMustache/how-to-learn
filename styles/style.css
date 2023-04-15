@@ -19,7 +19,7 @@
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 
-.header__logo {
+.logo {
   position: absolute;
   top: 30px;
   left: 64px;
@@ -136,7 +136,7 @@
   margin: 0;  
 }
 
-.digits__table {
+.table {
   display: flex;
   width: 1100px;
   flex-wrap: wrap;
@@ -144,11 +144,11 @@
   gap: 33px;
 }
 
-.digits__cell {
+.table__cell {
   width: 250px;
 }
 
-.digits__heading {
+.table__heading {
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
@@ -156,7 +156,7 @@
   margin-bottom: 20px;
 }
 
-.digits__text {
+.table__text {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -168,12 +168,12 @@
   position: relative;
 }
 
-.feynman__titles {
+.section__titles {
   display: flex;
   justify-content: center;
 }
 
-.feynman__title {
+.section__title {
   text-align: center;
   line-height: 1.15;
   font-size: 120px;
@@ -182,7 +182,7 @@
   margin: 0;
 }
 
-.feynman__subtitle {
+.section__subtitle {
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -191,7 +191,7 @@
   position: relative;
 }
 
-.feynman__image {
+.section__image {
   position: absolute;
   width: 867px;
   height: 637px;
@@ -200,7 +200,7 @@
   bottom: 0;
 }
 
-.feynman__link {
+.section__link {
   position: absolute;
   top: 50%;
   right: 48px;
@@ -223,7 +223,7 @@
   position: relative;
 }
 
-.kaufman__title_theme_dark {
+.section__title_theme_dark {
   width: 60%;
   line-height: 1.15;
   font-size: 60px;
@@ -234,7 +234,7 @@
   color: white;
 }
 
-.kaufman__subtitle_theme_dark {
+.section__subtitle_theme_dark {
   width: 60%;
   line-height: 34px;
   font-size: 24px;
@@ -244,7 +244,7 @@
   color: white;
 }
 
-.kaufman__table_theme_dark {
+.table_theme_dark {
   display: flex;
   width: 1100px;
   flex-wrap: wrap;
@@ -253,13 +253,13 @@
   z-index: 3;
 }
 
-.kaufman__cell_theme_dark {
+.table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
 }
 
-.kaufman__heading_theme_dark {
+.table__heading_theme_dark {
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
@@ -268,7 +268,7 @@
   color: white;
 }
 
-.kaufman__text_theme_dark {
+.table__text_theme_dark {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -276,7 +276,7 @@
   color: white;
 }
 
-.kaufman__image_theme_dark {
+.image_theme_dark {
   position: absolute;
   z-index: -1;
   top: 0;
@@ -292,14 +292,18 @@
 .footer__columns {
   position: relative;
   display: flex;
+  justify-content: space-between;
   width: 90%;
   top: 60px;
   margin: 0 auto;
   min-height: 250px;
 }
 
+
 .footer__column_content_copyright {
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   flex-basis: 711px;
 }
 
@@ -310,7 +314,6 @@
 
 .footer__author {
   color: white;
-  position: absolute;
   bottom: 0;
   line-height: 25px;
   font-size: 18px;
@@ -349,8 +352,11 @@
   margin-right: 10px;
 }
 
+.footer__column_content_info {
+  margin-right: auto;
+}
+
 .footer__column_content_social {
-  position: absolute;
   top: 0;
   right: 0;
 }
