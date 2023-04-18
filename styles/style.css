@@ -39,7 +39,7 @@ CSS предлагает более мягкое свойство - max-width.
 }
 
 .header__block {
-  display: flex;  
+  display: flex;
   flex-direction: column;
   justify-content: center;
 }
