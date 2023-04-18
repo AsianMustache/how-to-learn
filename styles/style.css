@@ -326,7 +326,6 @@ CSS предлагает более мягкое свойство - max-width.
 
 .footer__author {
   color: white;
-  margin: 0;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
