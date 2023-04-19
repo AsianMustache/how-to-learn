@@ -49,7 +49,7 @@ CSS предлагает более мягкое свойство - max-width.
   display: flex;
   flex-direction: column;
   justify-content: center;
-  left: 56px;
+  margin-left: 64px;
   position: relative;
 }
 
@@ -149,6 +149,7 @@ CSS предлагает более мягкое свойство - max-width.
   font-weight: 600;
   text-align: center;
   margin-bottom: 20px;
+  margin-top: 0;
 }
 
 .section-subtitle {
@@ -179,14 +180,15 @@ CSS предлагает более мягкое свойство - max-width.
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin-top: 0px;
+  margin-bottom: 0;
 }
 
 .table__text {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  margin: 0;
+  margin-top: 20px;
 }
 
 .feynman {
@@ -271,7 +273,7 @@ CSS предлагает более мягкое свойство - max-width.
   width: 200px;
   color: white;
   display: block;
-  margin-bottom: 80px;
+  margin: 0;
 }
 
 .table__heading_theme_dark {
@@ -291,6 +293,7 @@ CSS предлагает более мягкое свойство - max-width.
   top: 0;
   right: -210px;
   background-image: url('../images/kaufman-triangle.svg');
+  background-size: cover;
   width: 877px;
   height: 877px;
 }
@@ -359,7 +362,6 @@ CSS предлагает более мягкое свойство - max-width.
   font-size: 18px;
   font-weight: normal;
   text-decoration: none;
-  margin-left: 10px;
 }
 
 
