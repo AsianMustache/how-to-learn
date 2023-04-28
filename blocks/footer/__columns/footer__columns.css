@@ -1,0 +1,10 @@
+@import url(/how-to-learn/blocks/logo/_place/logo_place_footer.css);
+
+.footer__columns {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 60px auto 40px;
+    min-height: 250px;
+}
