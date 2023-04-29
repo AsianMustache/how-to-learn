@@ -1,5 +1,11 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/techniques/techniques.css);
+@import url(../blocks/technique/technique.css);
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/video/video.css);
+@import url(../blocks/video-description/video-description.css);
+@import url(../blocks/khan/khan.css);
 @import url(../blocks/description/description.css);
 @import url(../blocks/two-columns/two-columns.css);
 @import url(../blocks/digits/digits.css);
