@@ -1,0 +1,12 @@
+@keyframes link-animation {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0.5;
+    }
+}
+
+.link-animation:hover {
+    animation: link-animation 1s ease-in-out infinite;
+}

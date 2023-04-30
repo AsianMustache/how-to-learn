@@ -10,13 +10,13 @@
 <body>
   <div class="page">
     <header class="header">
-        <a href="/" class="header__link"><img src="./images/logo_place_header.svg" class="logo logo_place_header" alt="Яндекс"></a>
+        <a href="/" class="header__link link-animation"><img src="./images/logo_place_header.svg" class="logo logo_place_header" alt="Яндекс"></a>
         
           <h1 class="header__title">Научиться учиться</h1>
         
-        <h2 class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? <a href="#" title="Обучение" class="header__link">Узнать→</a></h2>
+        <h2 class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? <a href="#" title="Обучение" class="header__link link-animation">Узнать→</a></h2>
         <img class="header__main-illustration" src="./images/header-image.png" alt="Опять двойка?!" />
-        <div class="header__square-pic"></div>
+        <div class="header__square-pic rotation"></div>
     </header>
     <main class="content">
       <section class="techniques">
@@ -98,7 +98,7 @@
                   </p>
             </div>
           </article>
-      </section>
+      </section>    
 
       <section class="digits">
         <h2 class="section-title">Цифры и факты</h2>
@@ -142,13 +142,29 @@
                        
         </ul>
       </section>
-
+      <section class="khan">
+        <div class="khan__container">
+          <h3 class="khan__author">Салман Хан</h3>
+          <h2 class="khan__title">Весь мир — школа</h2>
+          <blockquote class="khan__quote">
+            Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. 
+            Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, 
+            которые приносят успех в школе, карьере и жизни.
+          </blockquote>
+          <h3 class="khan__quote-author">Джордж Лукас</h3>
+          <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
+          <div class="khan__book-container">
+            <img src="./images/khan-book.jpg" class="khan__book-pic" alt="Весь мир - школа" />
+            <a href="#" class="khan__buy-link link-animation">Купить книгу→</a>
+          </div>
+        </div>
+      </section>
       <section class="feynman">
         
           <h2 class="feynman__title">Метод Фейнмана</h2>        
           <h3 class="feynman__subtitle">Выучить и не забыть.</h3>
           <img class="feynman__image" src="./images/feynman.png" alt="Методы Фейнмана" />
-          <a class="feynman__link" href="#" title="Read more...">Подробнее→</a>
+          <a class="feynman__link link-animation" href="#" title="Read more...">Подробнее→</a>
       </section>
 
       <section class="kaufman">
@@ -198,29 +214,39 @@
             </div>
           </div>
             
-            <div class="kaufman__triangle"></div> 
+            <div class="kaufman__triangle rotation"></div> 
+      </section>
+      <section class="resources">
+        <h2 class="section-title">Полезные ресурсы</h2>
+        <h3 class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</h3>
+        <div class="resources__logo-zone">
+          <a href="#" class="resources__link link-animation"><img src="./images/logo/resources-arzamas.svg" alt="ARZAMA" /></a>
+          <a href="#" class="resources__link link-animation"><img src="./images/logo/resources-n1.svg" alt="N+1" /></a>
+          <a href="#" class="resources__link link-animation"><img src="./images/logo/resources-strelka.svg" alt="STRELKA" /></a>
+          <a href="#" class="resources__link link-animation"><img src="./images/logo/resources-polka.svg" alt="ПОЛКА" /></a>
+        </div>
       </section>
     </main>
     <footer class="footer">
       <div class="footer__columns">
         <div class="footer__column footer__column_content_copyright">
-          <a href="/" ><img  class="logo logo_place_footer" src="./images/logo_place_footer.svg" alt="Яндекс Лого"></a>
+          <a href="/" ><img  class="logo logo_place_footer link-animation" src="./images/logo_place_footer.svg" alt="Яндекс Лого"></a>
           <p class="footer__author">&copy; Виктор Абанькин</p>
         </div>
         <div class="footer__column footer__column_content_info">
           <h3 class="footer__column-heading">О Практикуме</h3>
           <nav class="footer__column-links">
-            <a href="#" class="footer__column-link">Главная</a>
-            <a href="#" class="footer__column-link">Концепция</a>
-            <a href="#" class="footer__column-link">Наставники</a>
+            <a href="#" class="footer__column-link link-animation">Главная</a>
+            <a href="#" class="footer__column-link link-animation">Концепция</a>
+            <a href="#" class="footer__column-link link-animation">Наставники</a>
           </nav>
         </div>
         <div class="footer__column footer__column_content_social">
           <h3 class="footer__column-heading">Соцсети</h3>
           <div class="footer__column-links">
-            <a href="#" class="footer__column-link" target="_blank"><img src="./images/youtube_color_white.svg" alt="Ютюб" class="footer__social-icon">Youtube</a>
-            <a href="#" class="footer__column-link" target="_blank"><img src="./images/vk_color_white.svg" alt="ВК" class="footer__social-icon">Вконакте</a>
-            <a href="#" class="footer__column-link" target="_blank"><img src="./images/tiktok_color_white.svg" alt="ТикТок" class="footer__social-icon">TikTok</a>
+            <a href="#" class="footer__column-link link-animation" target="_blank"><img src="./images/youtube_color_white.svg" alt="Ютюб" class="footer__social-icon">Youtube</a>
+            <a href="#" class="footer__column-link link-animation" target="_blank"><img src="./images/vk_color_white.svg" alt="ВК" class="footer__social-icon">Вконакте</a>
+            <a href="#" class="footer__column-link link-animation" target="_blank"><img src="./images/tiktok_color_white.svg" alt="ТикТок" class="footer__social-icon">TikTok</a>
           </div>
         </div>
       </div>
