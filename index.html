@@ -3,26 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link  rel="stylesheet" href="./styles/normalize.css" type="text/css">
-  <link  rel="stylesheet" href="./pages/index.css" type="text/css"> <!--подставить путь к index.css-->
+  <link  rel="stylesheet" href="./pages/index.css" type="text/css">
   <title>Научиться учиться</title>
 </head>
 <body>
   <div class="page">
     <header class="header">
-        <a href="/" class="header__link link-animation"><img src="./images/logo_place_header.svg" class="logo logo_place_header" alt="Яндекс"></a>
-        
-          <h1 class="header__title">Научиться учиться</h1>
-        
-        <h2 class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? <a href="#" title="Обучение" class="header__link link-animation">Узнать→</a></h2>
-        <img class="header__main-illustration" src="./images/header-image.png" alt="Опять двойка?!" />
-        <div class="header__square-pic rotation"></div>
+      <a href="/" class="header__link link-animation"><img src="./images/logo_place_header.svg" class="logo logo_place_header" alt="Яндекс"></a>
+      
+      <h1 class="header__title">Научиться учиться</h1>
+      
+      <h2 class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? <a href="#" title="Обучение" class="header__link link-animation">Узнать→</a></h2>
+      <img class="header__main-illustration" src="./images/header-image.png" alt="Опять двойка?!" />
+      <div class="header__square-pic rotation"></div>
     </header>
     <main class="content">
+      <section class="description">
+          <article class="two-columns">
+           
+              <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
+           
+            
+              <div class="two-columns__main-text">
+                  <p class="two-columns__paragraph">
+                  Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. 
+                  Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. 
+                  Зубрежка быстро выветривается и не приносит пользы.
+                  </p>
+                  <p class="two-columns__paragraph"><span class="two-columns__span-accent">Вывод:</span> учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?</p>
+                  <p class="two-columns__paragraph">
+                    Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим.
+                    Эти же техники применяются на примере обучения в Практикуме.
+                  </p>
+            </div>
+          </article>
+      </section>    
       <section class="techniques">
-        <div class="technique">
+        
           <h2 class="section-title">Техники обучения</h2>
-          <h3 class="section-subtitle">Пять практик от Барбары Оакли</h3>
+          <p class="section-subtitle">Пять практик от Барбары Оакли</p>
           <article class="cards">
             <div class="cards__item">
                 <img src="./images/cards-attention.png" class="cards__image" alt="Два вида внимания" />
@@ -51,20 +70,16 @@
             </div>
 
           </article>
-        </div>        
+                
       </section>
       <section class="video">
         <h2 class="section-title">Видео на TED</h2>
         <h3 class="section-subtitle">Для тех, кто любит прокрастинировать</h3>
-        <div class="video__iframes">
-          <div class="video__iframe">
-            <iframe width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" title="The first 20 hours -- how to learn anything | Josh Kaufman | TEDxCSU" style="border-width:0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          </div>
-          <div class="video__iframe">
-            <iframe width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" title="Tim Urban: Inside the mind of a master procrastinator | TED" style="border-width:0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          </div>
+        <div class="video__iframes">          
+            <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" title="The first 20 hours -- how to learn anything | Josh Kaufman | TEDxCSU" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" title="Tim Urban: Inside the mind of a master procrastinator | TED" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>          
         </div>
-        <section class="video-description video-description_background-color_grey"> 
+        <section class="oakley"> 
             <article class="two-columns">
               
               <h2 class="two-columns__brief">История Барбары Оакли.</h2>
@@ -79,27 +94,14 @@
           </article>
         </section>
       </section>
-      <section class="description">
-          <article class="two-columns">
-           
-              <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
-           
-            
-              <div class="two-columns__main-text">
-                  <p class="two-columns__paragraph">
-                  Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. 
-                  Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. 
-                  Зубрежка быстро выветривается и не приносит пользы.
-                  </p>
-                  <p class="two-columns__paragraph"><span class="two-columns__span-accent">Вывод:</span> учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?</p>
-                  <p class="two-columns__paragraph">
-                    Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим.
-                    Эти же техники применяются на примере обучения в Практикуме.
-                  </p>
-            </div>
-          </article>
-      </section>    
-
+      <section class="feynman">
+        
+          <h2 class="feynman__title">Метод Фейнмана</h2>        
+          <h3 class="feynman__subtitle">Выучить и не забыть.</h3>
+          <img class="feynman__image" src="./images/feynman.png" alt="Методы Фейнмана" />
+          <a class="feynman__link link-animation" href="#" title="Read more...">Подробнее→</a>
+      </section>
+      
       <section class="digits">
         <h2 class="section-title">Цифры и факты</h2>
         <h3 class="section-subtitle">Про учёбу и мозг</h3>
@@ -139,18 +141,18 @@
               <h4 class="table__heading">1889 год</h4>
               <p class="table__text">Открытие условного рефлекса</p>
             </li>
-                       
-        </ul>
+            
+          </ul>
       </section>
       <section class="khan">
         <div class="khan__container">
-          <h3 class="khan__author">Салман Хан</h3>
+          <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир — школа</h2>
-          <blockquote class="khan__quote">
+          <p class="khan__quote">
             Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. 
             Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, 
             которые приносят успех в школе, карьере и жизни.
-          </blockquote>
+          </p>
           <h3 class="khan__quote-author">Джордж Лукас</h3>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
@@ -158,13 +160,6 @@
             <a href="#" class="khan__buy-link link-animation">Купить книгу→</a>
           </div>
         </div>
-      </section>
-      <section class="feynman">
-        
-          <h2 class="feynman__title">Метод Фейнмана</h2>        
-          <h3 class="feynman__subtitle">Выучить и не забыть.</h3>
-          <img class="feynman__image" src="./images/feynman.png" alt="Методы Фейнмана" />
-          <a class="feynman__link link-animation" href="#" title="Read more...">Подробнее→</a>
       </section>
 
       <section class="kaufman">

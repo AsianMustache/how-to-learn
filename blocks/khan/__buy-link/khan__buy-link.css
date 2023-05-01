@@ -6,6 +6,5 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
-    justify-self: start;
-    align-self: start;
+    place-self: start;
 }
